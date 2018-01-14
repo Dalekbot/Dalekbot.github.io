@@ -1,0 +1,30 @@
+<nav class="mdl-navigation">
+    {% if page.name == 'index.md' %}
+    <a class="mdl-navigation__link is-active" href="/">Home</a>
+    {% else %}
+    <a class="mdl-navigation__link" href="/">Home</a>
+    {% endif %}
+    
+    
+    
+
+    {% for p in site.pages %}
+    {% if p.title =='Home' %}
+    {% elsif p.title =='Help' %}  
+    {% elsif p.title =='offline' %}  
+    {% elsif p.title contains 'Cosma's Posts' %}  
+    {% elsif p.title contains 'Phils's Posts' %}  
+    {% elsif p.title  %}
+
+          {% if page.name == p.name %}
+          <a class="mdl-navigation__link is-active" href="{{ p.url }}">{{ p.title }}</a>
+          {% else %}
+          <a class="mdl-navigation__link" href="{{ p.url }}">{{ p.title }}</a>
+          {% endif %}
+       
+    {% endif %}
+{% endfor %} 
+
+
+
+  </nav>

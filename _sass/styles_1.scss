@@ -1,0 +1,191 @@
+$primary-color: #db164e;
+
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+::selection {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+ .dalekbot-layout{
+  background-image: url("/assets/images/sz_large/DSC_1624.jpg");
+  background-size: cover; 
+
+ 
+} 
+
+
+
+
+.dalekbot-header {
+  overflow: visible;
+  background-color: white;
+
+  .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+  }
+   .material-icons {
+    color: #767777 !important;
+  }
+   .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+   .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+ 
+
+.dalek-link {
+  text-decoration: none;
+  color:  $primary-color !important;
+}
+
+
+
+
+.dalekbot-top-section {
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.dalekbot-top-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+.dalekbot-top-section-text p {
+    padding-top: 16px;
+  }
+
+.dalekbot-top-section-image {
+  background: url('/assets/images/sz-Large/devices.jpg') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+
+.dalekbot-logo-image {
+  height: 28px;
+  width: 140px;
+}
+
+.dalekbot-drawer {
+  border-right: none;
+
+.mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+  span.mdl-navigation__link.mdl-navigation__link {
+    color: $primary-color;
+  }
+  .mdl-layout-title {
+    position: relative;
+    background: $primary-color;
+    height: 160px;
+  }
+
+  .dalekbot-logo-image {
+      position: absolute;
+      bottom: 16px;
+    }
+}
+
+  .dalekbot-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+
+
+    .dalekbot-mobile-title {
+      display: none !important;
+    }
+
+
+    .dakekbot-navigation-container {
+      /* Simple hack to make the overflow happen to the left instead... */
+      
+      direction: rtl;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1;
+      width: 500px;
+      transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+          width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  
+    .dalekbot-navigation {
+      /* ... and now make sure the content is actually LTR */
+      direction: ltr;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      width: 800px;
+
+      .mdl-navigation__link {
+        font-family: 'PT Mono', monospace;
+      display: inline-block;
+      height: 60px;
+      line-height: 68px;
+      background-color: transparent !important;
+      border-bottom: 4px solid transparent;
+      }
+      .mdl-navigation__link:hover {
+        border-bottom: 4px solid  $primary-color;
+      }
+
+        .is-active{
+
+      border-bottom: 4px solid  $primary-color;
+    }
+    
+    }
+  
+    
+  
+  
+
+
+    /**** Mobile layout ****/
+@media (max-width: 900px) {
+  .dalekbot-navigation-container {
+    display: none;
+  }
+
+  .dalekbot-title {
+    display: none !important;
+  }
+
+  .dalekbot-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+}

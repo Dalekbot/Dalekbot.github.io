@@ -1,0 +1,31 @@
+﻿<ImageProcessor>
+	<version>1</version>
+	<useopen>false</useopen>
+	<includesub>false</includesub>
+	<source>C:\Dev\2017\RebelMakers\dalekbot.github.io\assets\images\sz_original</source>
+	<open>false</open>
+	<saveinsame>false</saveinsame>
+	<dest>C:\Dev\2017\RebelMakers\dalekbot.github.io\assets\images\sz_small</dest>
+	<jpeg>true</jpeg>
+	<psd>false</psd>
+	<tiff>false</tiff>
+	<lzw>false</lzw>
+	<converticc>false</converticc>
+	<q>8</q>
+	<max>true</max>
+	<jpegresize>true</jpegresize>
+	<jpegw>600</jpegw>
+	<jpegh>600</jpegh>
+	<psdresize>false</psdresize>
+	<psdw></psdw>
+	<psdh></psdh>
+	<tiffresize>false</tiffresize>
+	<tiffw></tiffw>
+	<tiffh></tiffh>
+	<runaction>false</runaction>
+	<actionset>Default Actions</actionset>
+	<action>Vignette (selection)</action>
+	<info></info>
+	<icc>true</icc>
+	<keepstructure>true</keepstructure>
+</ImageProcessor>

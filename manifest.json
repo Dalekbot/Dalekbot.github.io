@@ -1,0 +1,135 @@
+{
+    "dir": "ltr",
+    "name": "DalekBot",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://dalekbot.github.io/",
+    "short_name": "DalekBot",
+    "theme_color": "#ffffff",
+    "description": "This is the site for the HackHorsham Dalekbot.",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/assets/images/icons//ms-icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-57x57.png",
+            "sizes": "57x57",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-60x60.png",
+            "sizes": "60x60",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-76x76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-114x114.png",
+            "sizes": "114x114",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-120x120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/apple-icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/favicon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/cf3b7f34-5f38-4736-35c3-ee548269b400.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/99aa3539-0027-22ef-9eaa-502cc53f2fda.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/6dcfce25-6454-b47a-3536-ae92560547e4.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/b6a6d8c7-c177-02a6-5359-9045825ae3d5.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/387c412e-c2fb-4b9c-3c92-7aea3f9120fa.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/0795aa19-1470-7c20-9f1e-680e8be25604.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/ce082900-43f9-baa8-c367-83b54f3738f0.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/a82e45bd-9431-0f6c-3393-f21e45f0300b.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/wp/7ce570ac-cc59-92a2-0938-9090e47bafbf.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ],
+    "lang": "en"
+}

@@ -1,0 +1,96 @@
+
+// .mdl-card__title-text{
+//   font-family: 'Audiowide', cursive;
+//   color: $primary-color;
+// }
+
+
+$primary-color: #db164e;
+
+
+ .dalekbot-card-container {
+  
+  .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+  }
+
+  .mdl-card__media img {
+    width: 100%;
+  } 
+
+  .mdl-card__title {
+    background: transparent;
+    height: auto;
+  }
+
+  .mdl-card__title-text {
+    color: rgb(50, 53, 52);
+    height: auto;
+    font-family: 'Audiowide', cursive;
+  }
+
+  .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 56px;
+    font-family: 'PT Mono', monospace;
+  }
+
+  .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .mdl-card__actions a {
+    border-top: none;
+    font-size: 16px;
+  }
+
+    .mdl-typography--subhead {
+    font-family: 'PT Mono', monospace;
+  }
+  
+  .mdl-button{
+    font-family: 'PT Mono', monospace;
+  }
+
+  img{
+    margin-bottom: 10px;
+  }
+
+
+ } 
+
+
+
+
+
+
+
+
+
+.dalekbot-card-wide.mdl-card {
+  width: 512px;
+}
+.dalekbot-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  // background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.dalekbot-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+// .dalekbot-card-wide.mdl-card{
+//   margin:  150px auto 0px auto ;
+//   width: 512px;
+//  background-color: rgba(255, 255, 255, 0.8)
+  
+// }
+
+
+// .dalekbot-card-wide > .mdl-card__title {
+//   color: hotpink;
+//   height: 176px;
+// }

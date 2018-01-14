@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<h3>Resourses</h3>
+
+
+    {% for res in site.data.resourses %}
+     {%  assign r = res[1]  %}
+      {% if r.category == 'other' %}
+    
+     <div>
+        <a href="{{ r.url }}">{{ r.description }}</a>
+        <p>
+            <!-- {{ r.text }} -->
+        </p>
+      </div>
+        
+        
+      
+      {% endif %}
+    {% endfor %}
+    
+<h4>Hardware</h4>
+
+    {% for res in site.data.resourses %}
+     {%  assign r = res[1]  %}
+      {% if r.category == 'hardware' %}
+    
+   <div> 
+     <a href="{{ r.url }}">{{ r.description }}</a>
+  </div>
+       
+          
+        
+        
+    
+      {% endif %}
+    {% endfor %}

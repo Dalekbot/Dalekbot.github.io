@@ -1,0 +1,106 @@
+$primary-color: #db164e;
+
+.dalek-content{
+  padding: 12px 50px 50px 50px;
+  
+  h1,h2,h3,h4,h5{
+    font-family: 'Audiowide', cursive ;
+   }
+  h2,h3,h4{
+    text-align: center;
+  }
+
+  // font-family: 'Audiowide', cursive;
+  font-family: 'PT Mono', monospace;
+  // font-family: 'Press Start 2P', cursive;
+  // font-weight: 600;
+  p{
+
+    font-size: 16px ;
+    
+  }
+
+
+
+img.wrap-right{
+  float: right;
+  width: 25%;
+  margin: 25px 25px 25px 25px;
+  max-width: 200px;
+}
+
+img.wrap-left{
+  float: left;
+  width: 25%;
+  margin: 0px 25px 25px 25px;
+  max-width: 150px;
+}
+img.wrap-left-mobile{
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  margin: 0px auto 25px auto;
+  padding: 0px 40px;
+  // max-width: 180px;
+}
+
+  span.dalekbot {
+    color: $primary-color;
+    font-family: 'Audiowide', cursive;
+  }
+  .dalekbot-mainpage-container{
+    margin: auto;
+    // border: 3px solid hotpink;
+  text-align: center;
+
+  
+
+  
+    .dalekbot-image{
+      display: block;
+      // border: 3px solid hotpink;
+      margin: 0px auto auto auto;
+      width:60%;
+     
+     }
+     .dalekbot-logo{
+      display: block;
+      width: 100%;
+      margin: 60px auto auto auto;
+      // font-family: "courier";
+      // font-family: 'Audiowide', cursive;
+      // color: $primary-color;
+      // font-weight: 700;
+       
+       margin-top: 0px;
+     }
+  
+     p{
+       font-size: 24px;
+      //  font-weight: 400;
+     }
+
+    
+  }
+
+}
+
+
+.author{
+  h1,h2,h3,h4,h5{
+    font-family: 'Audiowide', cursive ;
+   }
+   p{
+    font-family: 'PT Mono', monospace;
+  }
+  img{
+    width:200px;
+    height:200px;
+    float: right;
+  
+
+     
+     
+  }
+}
+
