@@ -3,7 +3,7 @@
     "name": "DalekBot",
     "scope": "/",
     "display": "standalone",
-    "start_url": "https://dalekbot.github.io/",
+    "start_url": "https://www.dalekbot.co.uk/",
     "short_name": "DalekBot",
     "theme_color": "#ffffff",
     "description": "This is the site for the HackHorsham Dalekbot.",
