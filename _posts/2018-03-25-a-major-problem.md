@@ -10,6 +10,11 @@ author: cosma
 ---
 
 
+A Major Problem
+
+A rash decision causes an extended period of down time.
+<!--more-->
+
 Following a long discussion we decided that it makes sense that, moving forward, the bots should be as closely aligned as possible...
 
 Using a schematic produced by Phil I made my own version of the sensor pod.  I had to modify the design as my sensors are in a pod at the front and Phils are spread around the machine.  The end result can be seen here.  On the right, we have an Arduino and on the left is a 10 Degrees of Freedom (10DoF) sensor that helps the bot to know where it is facing (useful when turning corners).
