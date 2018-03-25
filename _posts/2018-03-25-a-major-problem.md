@@ -9,6 +9,7 @@ thumbnail_alt: 'A major problem'
 author: cosma
 ---
 
+
 A Major Problem
 
 A rash decision causes an extended period of down time.
