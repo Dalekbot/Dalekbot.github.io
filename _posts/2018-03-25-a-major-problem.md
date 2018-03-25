@@ -9,10 +9,10 @@ thumbnail_alt: 'A major problem'
 author: cosma
 ---
 
-
 A Major Problem
 
 A rash decision causes an extended period of down time.
+
 <!--more-->
 
 Following a long discussion we decided that it makes sense that, moving forward, the bots should be as closely aligned as possible...
