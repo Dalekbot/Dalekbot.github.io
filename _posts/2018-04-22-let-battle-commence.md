@@ -4,7 +4,7 @@ title:  "Let Battle Commence"
 date:   2018-04-22 12:33:39 +0000
 categories: blog
 excerpt_separator: <!--more-->
-thumbnail_file_name: 'WP_20180128_21_15_22_Pro.jpg'
+thumbnail_file_name: 'WP_20180422_11_40_13_Pro.jpg'
 thumbnail_alt: 'Let Battle Commence'
 author: cosma
 ---
@@ -26,4 +26,4 @@ After some panicked rewriting and restoration we managed to get the bot running 
 
 There then followed some manic coding by Phil to fix some errors in our straight line code (this is happening as I speak)
 
-Watch this space for more updates….
+Watch this space for more updates…. 
