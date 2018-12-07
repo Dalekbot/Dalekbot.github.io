@@ -9,7 +9,10 @@ layout: default
             <img src="images/more-from-1.png">
           </div> -->
           <div class="mdl-card__title">
-             <h4 class="mdl-card__title-text">{{ post.title }}</h4>
+            <div class="blog_title">
+
+              <h4 class="mdl-card__title-text">{{ post.title }}</h4>
+            </div>
           </div>
           <div class="mdl-card__supporting-text">
     
@@ -21,9 +24,14 @@ layout: default
                    
                   </small>
                 </p>
-                <a href="{{ post.url }}">
-                <img src="/assets/images/sz_small/{{ post.thumbnail_file_name }}" alt="{{ post.thumbnail_alt}}" width="100%">
-              </a>
+                <div class="blog_image">
+
+                  <a href="{{ post.url }}">
+                    <!-- image here -->
+                  <img src="/assets/images/sz_small/{{ post.thumbnail_file_name }}" 
+                       alt="{{ post.thumbnail_alt}}">
+                </a>
+                </div>
             <span class="mdl-typography--font-light mdl-typography--subhead">{{ post.excerpt }}</span>
           
           </div>
